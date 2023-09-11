@@ -1,0 +1,14 @@
+th {
+    color: blue;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: left;
+}
+.thongtin {
+    color: blue;
+    text-align: left;
+    padding-right: 30px;
+}
+table {
+    background-color: khaki;
+}

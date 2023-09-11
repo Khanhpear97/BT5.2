@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<form action="">
+    <table style="width: 300px">
+        <thead>
+        <th colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="thongtin"><label for="yourname">Họ và tên</label></td>
+            <td><input type="text" name="yourname" id="yourname"></td>
+        </tr>
+        <tr>
+            <td class="thongtin"><label for="dob">Ngày sinh</label></td>
+            <td><input type="text" name="dob" id="dob"></td>
+        </tr>
+        <tr>
+            <td class="thongtin">Giới tính</td>
+            <td>
+                <input type="radio" name="gender" id="nam" value="nam"><label for="nam">Nam</label>
+                <input type="radio" name="gender" id="nu" value="nu"><label for="nu">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="thongtin"><label for="add">Địa chỉ</label></td>
+            <td><input type="textarea" name="add" id="add"></td>
+        </tr>
+        <tr>
+            <td class="thongtin">Lớp</td>
+            <td>
+                <select name="Class">
+                    <option value="Chọn lớp">-Chọn lớp-</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="thongtin"><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="vertical-align: top"><label for="phone" class="thongtin">Điện thoại</label></td>
+            <td><input type="text" name="phone" id="phone"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Đăng ký">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

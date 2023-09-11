@@ -1,0 +1,24 @@
+th {
+    text-align: center;
+    color: #fff;
+    background-color: orangered;
+    padding: 10px;
+}
+.thongtin {
+    text-align: right;
+    color: blue;
+    padding: 10px;
+}
+.hobby {
+    color: orange;
+    padding: 10px;
+}
+.button {
+    font-weight: bold;
+}
+body {
+    background-color: darkturquoise;
+}
+fieldset {
+    background-color: white;
+}
